@@ -2,87 +2,108 @@
 <html>
 
     <head>
-        <meta charset="utf-8">
         <title>
             Les Jeux Vidéos
         </title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <body>
-        <header>
+    <body class="container-flow">
+        <header >
             <h1 id="haut">Les Jeux Videos.</h1>
-            <nav>
-                <ul>
-                    <li>      <a href="index.html" >Accueil </a>  </li>
-                    <li><a href="adherent.html" >Adhérents </a></li>
-                    <li> <a href="https://fr.wikipedia.org/wiki/Final_Fantasy_IX" >Bibliothèque </a></li>
+            <nav class="container-fluid">
+                <ul class="row">
+                    <li class="col-md-4 col-xs-12">      <a href="index.html" >Accueil </a>  </li>
+                    <li class="col-md-4 col-xs-12"> <a href="adherent.html" >Adhérents </a></li>
+                    <li class="col-md-4 col-xs-12">  <a href="https://fr.wikipedia.org/wiki/Final_Fantasy_IX" >Bibliothèque </a></li>
 
                 </ul>
             </nav>
         </header>
 
-        <main>
+        <main class="container-fluid">
 
-            <div class="NouvTend" >   
-                <div class="NouvTend2" ><h2>Nouveautés</h2><div class="listElts"><div id="minecraft" class="elt"></div><div id="diablo" class="elt">Minecraft</div><div id="ff15"  class="elt"></div><div id="sc2"  class="elt"></div><div id="umineko"class="elt"></div></div></div>
-                <div class="NouvTend2" ><h2>Tendances</h2>
-                    <div class="listElts"><div id="minecraft" class="elt"></div><div id="diablo" class="elt"></div><div id="ff9"  class="elt"></div><div id="sc2"  class="elt"></div><div id="umineko"class="elt"></div></div>
-                </div>
+            <div class="NouvTend row" >   
+
+                <div class="NouvTend2 col-md-6" >
+                    <div class="row"><h2 class="col-md-12">Nouveautés</h2>
+                        <!--<div class="listElts col-md-12">-->
+                        <div id="minecraft" class="elt col-xs-2"></div><div id="diablo" class="elt col-xs-2">Minecraft</div><div id="ff15"  class="elt col-xs-2"></div><div id="sc2"  class="elt col-xs-2"></div><div id="umineko"class="elt col-xs-2"></div></div></div>
+                <!--</div>-->
+
+                <div class="NouvTend2 col-md-6" >
+                    <div class="row"><h2 class="col-md-12">Tendance</h2>
+                        <!--<div class="listElts col-md-12">-->
+                        <div id="minecraft" class="elt col-xs-2"></div><div id="diablo" class="elt col-xs-2">Minecraft</div><div id="ff15"  class="elt col-xs-2"></div><div id="sc2"  class="elt col-xs-2"></div><div id="umineko"class="elt col-xs-2"></div></div></div>
+                <!--</div>-->
+            </div>
             </div>
 
 
-            <table class="tableaux" table width="800" ><caption><h2>Tableaux des emprunts</h2></caption>
-                <tr>
-                    <th>Jeu emprunté</th>
+        <table class="tableaux" table width="800" ><caption><h2>Tableaux des emprunts</h2></caption>
+            <tr>
+                <th>Jeu emprunté</th>
 
-                    <th>Type</th>
-                    <th>Date emprunt</th>
-                    <th>Emprunteur</th>
-                </tr>
-                <tr>
-                    <td><a href="objet.html">Final Fantaisy IX</a></td>
-                    <td>RPG</td>
-                    <td>03/01/2019</td>
-                    <td>Bruno</td>
-                </tr>
-                <tr>
-                    <td>Warcraft III</td>
-                    <td>RTS</td>
-                    <td>06/12/2017</td>
-                    <td>Samy</td>
-                </tr>
-                <tr>
-                    <td>Final Fantaisy VII</td>
-                    <td>RPG</td>
-                    <td>22/07/2017</td>
-                    <td>Quentin</td>
-                </tr>
-                <tr>
-                    <td>Minecraft</td>
-                    <td>RPG</td>
-                    <td>26/07/2020</td>
-                    <td>Angelina</td>
-                </tr>
-                <tr>
-                    <td>Skyrim</td>
-                    <td>RPG</td>
-                    <td>03/01/2019</td>
-                    <td>Florent</td>
-                </tr>
-                <tfoot>
-                    <th colspan="3">Nombre d'emprunt : </th>
-                    <th>5 </th>
-                </tfoot>
+                <th>Type</th>
+                <th>Date emprunt</th>
+                <th>Emprunteur</th>
+            </tr>
+            <tr>
+                <td><a href="objet.html">Final Fantaisy IX</a></td>
+                <td>RPG</td>
+                <td>03/01/2019</td>
+                <td>Bruno</td>
+            </tr>
+            <tr>
+                <td>Warcraft III</td>
+                <td>RTS</td>
+                <td>06/12/2017</td>
+                <td>Samy</td>
+            </tr>
+            <tr>
+                <td>Final Fantaisy VII</td>
+                <td>RPG</td>
+                <td>22/07/2017</td>
+                <td>Quentin</td>
+            </tr>
+            <tr>
+                <td>Minecraft</td>
+                <td>RPG</td>
+                <td>26/07/2020</td>
+                <td>Angelina</td>
+            </tr>
+            <tr>
+                <td>Skyrim</td>
+                <td>RPG</td>
+                <td>03/01/2019</td>
+                <td>Florent</td>
+            </tr>
+            <tfoot>
+                <th colspan="3">Nombre d'emprunt : </th>
+                <th>5 </th>
+            </tfoot>
 
-            </table>
+        </table>
 
 
         </main>
 
-        <footer>
-            "Les Jeux Vidéos" est un site inventé par Murat Bruno dit le génie.
-        </footer>
+    <footer>
+        <a href="#haut">Remonter</a>
+        "Les Jeux Vidéos" est un site inventé par Murat Bruno dit le génie.
+    </footer>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     </body>
 
 </html>

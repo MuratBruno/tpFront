@@ -22,6 +22,7 @@ nav a{
 }
 nav a:hover{
     text-decoration: underline;
+    color:#eaeaea;
 
 }
 nav,footer{
@@ -43,6 +44,11 @@ footer{
 nav li{
     display:inline;
     padding:10px
+      
+}
+nav>ul{
+      list-style-type:none;
+    margin:5px;
 }
 
 #haut{
@@ -66,25 +72,26 @@ article{
 }
 
 .listElts{
-    justify-content: space-between;
+  /*   justify-content: space-between;
 
-    height:400px;
+   height:400px;
     width:400px;
     display:flex;
+    height:150px;*/
 
 }
 
 .NouvTend2>div{
     padding:5px;
-    justify-content: space-around;
-    flex-wrap:wrap;
+  /*  justify-content: space-around;
+    flex-wrap:wrap;*/
   
 }
 
 .NouvTend{
-    justify-content: center;
-    display:flex;
-    width:100%;
+  /*  justify-content: center;
+    display:flex;*/
+   /* width:100%;*/
     background-color: #f5f5f5;
 }
 .NouvTend2 {
@@ -92,14 +99,14 @@ article{
     border-width: 2px;
     border-color: #ecebeb;
     background-color: #efefef;
-    padding: 5px 30px;
-    margin: 30px 10px;
+   /* padding: 5px 30px;
+    margin: 30px 10px;*/
     text-align: left;
-    justify-content: space-between;
+   /* justify-content: space-between;*/
 }
 
 .elt{
-    display:flex;
+   /* display:flex;*/
 
     width:100px;
     height:150px;
@@ -159,5 +166,14 @@ h2{
 .formulaire{
     text-align: left;
     margin-left:40%;
+}
+
+input{
+    height: 22px;
+    margin-left:3px;
+}
+
+footer a, footer a:hover{
+    color:#8bacde;
 }
 
