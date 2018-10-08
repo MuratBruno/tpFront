@@ -1,0 +1,163 @@
+body{
+    color:#263c7d;
+    // background-color: ;
+    font-size: 18px;
+    margin:0px;
+
+}
+
+main,nav,footer{
+    font-family:Geosanslight;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:#53a4cc;
+}
+
+nav a{
+    color:#eaeaea;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+
+}
+nav,footer{
+    background-color:#263c7d ;
+    padding:1px 1px;
+    margin:1px;
+    font-size: 18px;
+    font-weight: bold;
+color:#eaeaea;
+}
+
+footer{
+    position:fixed;
+    padding:10px;
+    
+    width:100%;
+    bottom:0%;
+}
+nav li{
+    display:inline;
+    padding:10px
+}
+
+#haut{
+    text-align: center;
+}
+header{
+    font-family:FORCEDSQUARE;
+}
+@font-face {
+    font-family: 'Geosanslight';
+    src: url('Polices/Geosanslight.ttf');
+}
+
+@font-face {
+    font-family:'FORCEDSQUARE';
+    src: url('Polices/FORCED SQUARE.ttf');
+}
+article{
+    background-color:#f5f5f5 ;
+    padding:25px;
+}
+
+.listElts{
+    justify-content: space-between;
+
+    height:400px;
+    width:400px;
+    display:flex;
+
+}
+
+.NouvTend2>div{
+    padding:5px;
+    justify-content: space-around;
+    flex-wrap:wrap;
+  
+}
+
+.NouvTend{
+    justify-content: center;
+    display:flex;
+    width:100%;
+    background-color: #f5f5f5;
+}
+.NouvTend2 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ecebeb;
+    background-color: #efefef;
+    padding: 5px 30px;
+    margin: 30px 10px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.elt{
+    display:flex;
+
+    width:100px;
+    height:150px;
+      margin:5px;
+    background-position: center center;
+    background-size: cover;
+}
+
+#minecraft{
+        background-image: url("Images/minecraft.jpg");
+}
+
+#diablo{
+        background-image: url("Images/diablo.jpg");
+}
+
+#sc2{
+          background-image: url("Images/sc2.jpg");  
+}
+
+#ff15{
+          background-image: url("Images/ff15.jpg");  
+}
+
+#ff9{
+          background-image: url("Images/ff9.jpg");  
+}
+
+#umineko{
+     background-image: url("Images/umineko.jpg");  
+}
+.tableaux{
+    margin: auto;
+    
+}
+.tableaux tr{
+    background-color: #f1f9fd;
+}
+.tableaux tr:nth-child(2n){
+    background-color: #eaedfd;
+}
+
+.tableaux td,.tableaux th{
+    padding: 5px;
+}
+h2{
+    font-family: "Kenyan";
+}
+
+@font-face {
+    font-family: "Kenyan";
+    src: url("Polices/kenyan coffee rg.ttf");
+
+
+}
+
+.formulaire{
+    text-align: left;
+    margin-left:40%;
+}
+
